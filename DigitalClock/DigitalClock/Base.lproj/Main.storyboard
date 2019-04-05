@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="digital-7.regular.ttf">
+            <string>Digital-7</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DigitalClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18:38" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h95-Gk-ApT" userLabel="Hour Label">
+                                <rect key="frame" x="202.5" y="119.5" width="262" height="136.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="136.5" id="lnK-gw-Rxd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="262" id="v2L-VN-uqU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="150"/>
+                                <color key="textColor" red="0.035294117647058823" green="0.73333333333333328" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APR 5, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceW-PY-I4R" userLabel="Date Label">
+                                <rect key="frame" x="409.5" y="89.5" width="118" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="118" id="do5-Gx-mQ4"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="ryB-sa-BDr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="28"/>
+                                <color key="textColor" red="0.035294117649999998" green="0.73333333329999995" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FRI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsz-jC-Es2" userLabel="Week Date Label">
+                                <rect key="frame" x="202.5" y="89.5" width="31" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="9D2-Va-RIa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="31" id="WmQ-KE-KLC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="28"/>
+                                <color key="textColor" red="0.035294117649999998" green="0.73333333329999995" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=": 35" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iR1-Vz-sWX" userLabel="Week Date Label">
+                                <rect key="frame" x="474.5" y="201" width="83" height="55"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="60"/>
+                                <color key="textColor" red="0.035294117649999998" green="0.73333333329999995" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iR1-Vz-sWX" firstAttribute="bottom" secondItem="h95-Gk-ApT" secondAttribute="bottom" id="8Tp-dP-AJI"/>
+                            <constraint firstItem="iR1-Vz-sWX" firstAttribute="leading" secondItem="h95-Gk-ApT" secondAttribute="trailing" constant="10" id="9fh-rd-AjH"/>
+                            <constraint firstItem="h95-Gk-ApT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EY2-zq-hBC"/>
+                            <constraint firstItem="h95-Gk-ApT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Inz-NJ-092"/>
+                            <constraint firstItem="dsz-jC-Es2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="202.5" id="KU2-ph-PjC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ceW-PY-I4R" secondAttribute="trailing" symbolic="YES" id="N8D-BX-abp"/>
+                            <constraint firstItem="ceW-PY-I4R" firstAttribute="top" secondItem="h95-Gk-ApT" secondAttribute="top" constant="-30" id="OzW-fJ-aOC"/>
+                            <constraint firstItem="ceW-PY-I4R" firstAttribute="leading" secondItem="h95-Gk-ApT" secondAttribute="trailing" constant="-55" id="Ptf-Xc-ttk"/>
+                            <constraint firstItem="dsz-jC-Es2" firstAttribute="bottom" secondItem="ceW-PY-I4R" secondAttribute="bottom" id="VDf-iZ-0ot"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iR1-Vz-sWX" secondAttribute="trailing" symbolic="YES" id="mTn-uu-Ary"/>
+                            <constraint firstItem="ceW-PY-I4R" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dsz-jC-Es2" secondAttribute="trailing" constant="8" symbolic="YES" id="slj-Qn-1VE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="ceW-PY-I4R" id="ilL-Hu-Ddq"/>
+                        <outlet property="hourLabel" destination="h95-Gk-ApT" id="yq0-aj-Evb"/>
+                        <outlet property="secondLabel" destination="iR1-Vz-sWX" id="3fu-Mn-Cgn"/>
+                        <outlet property="weekDateLabel" destination="dsz-jC-Es2" id="QE2-gJ-Rpl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103.89805097451276" y="40.799999999999997"/>
+        </scene>
+    </scenes>
+</document>
