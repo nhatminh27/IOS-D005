@@ -9,33 +9,31 @@
 /* Begin PBXBuildFile section */
 		249F0F2A13EFA0326D6D7CB2 /* Pods_DigitalClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9A11FCD13B099BD6EAA52 /* Pods_DigitalClock.framework */; };
 		9FF4EB9C22577AB300A8C9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4EB9B22577AB300A8C9AE /* AppDelegate.swift */; };
-		9FF4EB9E22577AB300A8C9AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4EB9D22577AB300A8C9AE /* ViewController.swift */; };
+		9FF4EB9E22577AB300A8C9AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4EB9D22577AB300A8C9AE /* HomeViewController.swift */; };
 		9FF4EBA122577AB300A8C9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EB9F22577AB300A8C9AE /* Main.storyboard */; };
 		9FF4EBA322577AB400A8C9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBA222577AB400A8C9AE /* Assets.xcassets */; };
 		9FF4EBA622577AB400A8C9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBA422577AB400A8C9AE /* LaunchScreen.storyboard */; };
-		9FF4EBB522577B3100A8C9AE /* digital-7.italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBB022577B3100A8C9AE /* digital-7.italic.ttf */; };
-		9FF4EBB622577B3100A8C9AE /* digital-7.mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBB122577B3100A8C9AE /* digital-7.mono.ttf */; };
-		9FF4EBB722577B3100A8C9AE /* digital-7.monoitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBB222577B3100A8C9AE /* digital-7.monoitalic.ttf */; };
-		9FF4EBB822577B3100A8C9AE /* digital-7.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBB322577B3100A8C9AE /* digital-7.regular.ttf */; };
-		9FF4EBB922577B3100A8C9AE /* Example_02_Configure.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBB422577B3100A8C9AE /* Example_02_Configure.txt */; };
-		9FF4EBBC22577FAC00A8C9AE /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4EBBB22577FAC00A8C9AE /* download.png */; };
+		9FF7D07E227C68F900391806 /* digital-7.italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7D079227C68F800391806 /* digital-7.italic.ttf */; };
+		9FF7D07F227C68F900391806 /* digital-7.mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7D07A227C68F800391806 /* digital-7.mono.ttf */; };
+		9FF7D080227C68F900391806 /* digital-7.monoitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7D07B227C68F900391806 /* digital-7.monoitalic.ttf */; };
+		9FF7D081227C68F900391806 /* digital-7.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7D07C227C68F900391806 /* digital-7.regular.ttf */; };
+		9FF7D082227C68F900391806 /* Example_02_Configure.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7D07D227C68F900391806 /* Example_02_Configure.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31019A0566530ED8D4BD07BF /* Pods-DigitalClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalClock.release.xcconfig"; path = "Target Support Files/Pods-DigitalClock/Pods-DigitalClock.release.xcconfig"; sourceTree = "<group>"; };
 		9FF4EB9822577AB300A8C9AE /* DigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF4EB9B22577AB300A8C9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FF4EB9D22577AB300A8C9AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FF4EB9D22577AB300A8C9AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9FF4EBA022577AB300A8C9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF4EBA222577AB400A8C9AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF4EBA522577AB400A8C9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF4EBA722577AB400A8C9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FF4EBB022577B3100A8C9AE /* digital-7.italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.italic.ttf"; sourceTree = "<group>"; };
-		9FF4EBB122577B3100A8C9AE /* digital-7.mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.mono.ttf"; sourceTree = "<group>"; };
-		9FF4EBB222577B3100A8C9AE /* digital-7.monoitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.monoitalic.ttf"; sourceTree = "<group>"; };
-		9FF4EBB322577B3100A8C9AE /* digital-7.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.regular.ttf"; sourceTree = "<group>"; };
-		9FF4EBB422577B3100A8C9AE /* Example_02_Configure.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_02_Configure.txt; sourceTree = "<group>"; };
-		9FF4EBBB22577FAC00A8C9AE /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		9FF7D079227C68F800391806 /* digital-7.italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.italic.ttf"; sourceTree = "<group>"; };
+		9FF7D07A227C68F800391806 /* digital-7.mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.mono.ttf"; sourceTree = "<group>"; };
+		9FF7D07B227C68F900391806 /* digital-7.monoitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.monoitalic.ttf"; sourceTree = "<group>"; };
+		9FF7D07C227C68F900391806 /* digital-7.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.regular.ttf"; sourceTree = "<group>"; };
+		9FF7D07D227C68F900391806 /* Example_02_Configure.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example_02_Configure.txt; sourceTree = "<group>"; };
 		B42B370EB8C5517D9DF6B734 /* Pods-DigitalClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalClock.debug.xcconfig"; path = "Target Support Files/Pods-DigitalClock/Pods-DigitalClock.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F9A11FCD13B099BD6EAA52 /* Pods_DigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,12 +79,10 @@
 		9FF4EB9A22577AB300A8C9AE /* DigitalClock */ = {
 			isa = PBXGroup;
 			children = (
-				9FF4EBBB22577FAC00A8C9AE /* download.png */,
-				9FF4EBAE22577AF600A8C9AE /* Font */,
-				9FF4EB9B22577AB300A8C9AE /* AppDelegate.swift */,
-				9FF4EB9D22577AB300A8C9AE /* ViewController.swift */,
+				9FF7D077227C68D400391806 /* Assets */,
+				9FF7D074227C688200391806 /* AppDelegate */,
+				9FF7D072227C685300391806 /* ViewControllers */,
 				9FF4EB9F22577AB300A8C9AE /* Main.storyboard */,
-				9FF4EBA222577AB400A8C9AE /* Assets.xcassets */,
 				9FF4EBA422577AB400A8C9AE /* LaunchScreen.storyboard */,
 				9FF4EBA722577AB400A8C9AE /* Info.plist */,
 			);
@@ -96,22 +92,55 @@
 		9FF4EBAE22577AF600A8C9AE /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				9FF4EBAF22577B3100A8C9AE /* digital-7 */,
+				9FF7D078227C68F800391806 /* digital-7 */,
 			);
 			path = Font;
 			sourceTree = "<group>";
 		};
-		9FF4EBAF22577B3100A8C9AE /* digital-7 */ = {
+		9FF7D072227C685300391806 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9FF4EBB022577B3100A8C9AE /* digital-7.italic.ttf */,
-				9FF4EBB122577B3100A8C9AE /* digital-7.mono.ttf */,
-				9FF4EBB222577B3100A8C9AE /* digital-7.monoitalic.ttf */,
-				9FF4EBB322577B3100A8C9AE /* digital-7.regular.ttf */,
-				9FF4EBB422577B3100A8C9AE /* Example_02_Configure.txt */,
+				9FF7D073227C686B00391806 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FF7D073227C686B00391806 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4EB9D22577AB300A8C9AE /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9FF7D074227C688200391806 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4EB9B22577AB300A8C9AE /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9FF7D077227C68D400391806 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4EBA222577AB400A8C9AE /* Assets.xcassets */,
+				9FF7D07D227C68F900391806 /* Example_02_Configure.txt */,
+				9FF4EBAE22577AF600A8C9AE /* Font */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9FF7D078227C68F800391806 /* digital-7 */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7D079227C68F800391806 /* digital-7.italic.ttf */,
+				9FF7D07A227C68F800391806 /* digital-7.mono.ttf */,
+				9FF7D07B227C68F900391806 /* digital-7.monoitalic.ttf */,
+				9FF7D07C227C68F900391806 /* digital-7.regular.ttf */,
 			);
 			name = "digital-7";
-			path = "../../../digital-7";
+			path = "../../../../digital-7";
 			sourceTree = "<group>";
 		};
 		EA1BD5A171A6A26C5FAEF1F8 /* Pods */ = {
@@ -120,7 +149,6 @@
 				B42B370EB8C5517D9DF6B734 /* Pods-DigitalClock.debug.xcconfig */,
 				31019A0566530ED8D4BD07BF /* Pods-DigitalClock.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,12 +214,11 @@
 			files = (
 				9FF4EBA622577AB400A8C9AE /* LaunchScreen.storyboard in Resources */,
 				9FF4EBA322577AB400A8C9AE /* Assets.xcassets in Resources */,
-				9FF4EBB622577B3100A8C9AE /* digital-7.mono.ttf in Resources */,
-				9FF4EBB822577B3100A8C9AE /* digital-7.regular.ttf in Resources */,
-				9FF4EBB922577B3100A8C9AE /* Example_02_Configure.txt in Resources */,
-				9FF4EBBC22577FAC00A8C9AE /* download.png in Resources */,
-				9FF4EBB722577B3100A8C9AE /* digital-7.monoitalic.ttf in Resources */,
-				9FF4EBB522577B3100A8C9AE /* digital-7.italic.ttf in Resources */,
+				9FF7D07F227C68F900391806 /* digital-7.mono.ttf in Resources */,
+				9FF7D081227C68F900391806 /* digital-7.regular.ttf in Resources */,
+				9FF7D082227C68F900391806 /* Example_02_Configure.txt in Resources */,
+				9FF7D080227C68F900391806 /* digital-7.monoitalic.ttf in Resources */,
+				9FF7D07E227C68F900391806 /* digital-7.italic.ttf in Resources */,
 				9FF4EBA122577AB300A8C9AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF4EB9E22577AB300A8C9AE /* ViewController.swift in Sources */,
+				9FF4EB9E22577AB300A8C9AE /* HomeViewController.swift in Sources */,
 				9FF4EB9C22577AB300A8C9AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
